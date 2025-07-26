@@ -1,0 +1,260 @@
+{
+    "users": [
+      {
+        "id": "a1fbb3b1-3b4f-4b92-a618-c1a0c0b2f1b0",
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "password": "password123",
+        "gender": "Male",
+        "role": "PATIENT",
+        "appointments": [],
+        "consultations": []
+      },
+      {
+        "id": "bb3b93b1-4e7e-42ba-a9f2-91c0ac35bcf4",
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "password": "password123",
+        "gender": "Female",
+        "role": "PATIENT",
+        "appointments": [],
+        "consultations": []
+      },
+      {
+        "id": "f847db5a-7f2f-4672-b4c7-5a9f23f0db47",
+        "name": "Alice Brown",
+        "email": "alicebrown@example.com",
+        "password": "password123",
+        "gender": "Female",
+        "role": "PATIENT",
+        "appointments": [],
+        "consultations": []
+      },
+      {
+        "id": "b65e4d71-71e4-466b-b07d-3fc63650c582",
+        "name": "Bob Johnson",
+        "email": "bobjohnson@example.com",
+        "password": "password123",
+        "gender": "Male",
+        "role": "PATIENT",
+        "appointments": [],
+        "consultations": []
+      },
+      {
+        "id": "d7e8f7b8-f37f-4fdb-b6f4-9a2634d1c9b7",
+        "name": "Charlie Davis",
+        "email": "charliedavis@example.com",
+        "password": "password123",
+        "gender": "Male",
+        "role": "PATIENT",
+        "appointments": [],
+        "consultations": []
+      }
+    ],
+    "pathologyLabs": [
+    {
+      "id": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e",
+      "name": "Prime Pathology",
+      "location": "San Francisco",
+      "email": "primepathology@example.com",
+      "tests": [
+        { "id": "6f1d2e3c-2d4a-4f7b-a8f3-d3b7f9c5a8e2", "name": "Vitamin D Test", "description": "Measures Vitamin D levels", "price": 55.0, "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" },
+        { "id": "b8d3c5e9-f1d6-4a2c-b7e8-d9c5e2b7a8f3", "name": "Glucose Test", "description": "Blood glucose levels", "price": 45.0, "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" },
+        { "id": "e8d7a3c2-1d4e-4f8b-a9f7-c5b9d3a8f1b6", "name": "Kidney Function Test", "description": "Checks renal health", "price": 65.0, "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" },
+        { "id": "f7c8a9e2-3d6b-4a5f-b3e9-c7d4f9b1a8f2", "name": "Hemoglobin Test", "description": "Measures hemoglobin level", "price": 50.0, "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" },
+        { "id": "b1d7f2a9-5c8d-4e7b-a3e9-d3f8a5b9c2a4", "name": "Calcium Test", "description": "Blood calcium levels", "price": 60.0, "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" }
+      ],
+      "slots": [
+        { "id": "7e8b9c5a-f4d2-4b3e-b7a9-5d6c9b3e8f2a", "startTime": "2024-11-03T09:00:00Z", "endTime": "2024-11-03T10:00:00Z", "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" },
+        { "id": "9f1d3b7a-c8e4-4a6f-a9f7-d3b8e5c7a9d4", "startTime": "2024-11-03T10:00:00Z", "endTime": "2024-11-03T11:00:00Z", "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" },
+        { "id": "5f2d3c6b-a7e8-4d9f-b4f2-d9c6b5a8f1e3", "startTime": "2024-11-03T11:00:00Z", "endTime": "2024-11-03T12:00:00Z", "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" },
+        { "id": "e9c7b8a5-f3d2-4e6f-a9b8-5f4a3d9b8c6e", "startTime": "2024-11-03T12:00:00Z", "endTime": "2024-11-03T13:00:00Z", "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" },
+        { "id": "8d3c5a7b-e9f2-4a1f-b6d3-9c7e5b2a3f8d", "startTime": "2024-11-03T13:00:00Z", "endTime": "2024-11-03T14:00:00Z", "labId": "4f8c7a4d-e9a2-472a-b7f6-c93b9d4c8b7e" }
+      ]
+    },
+    {
+      "id": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f",
+      "name": "QuickHealth Labs",
+      "location": "New York",
+      "email": "quickhealth@example.com",
+      "tests": [
+        { "id": "c7e9a3d5-4b2f-4d6b-a8f9-c6b7f5d3a2e8", "name": "Blood Tests", "description": "Detects inflammation", "price": 85.0, "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" },
+        { "id": "e9c5b8a6-f3d2-4a7f-b6c3-8f2a7d9b5c1e", "name": "Allergy Test", "description": "Tests for common allergens", "price": 95.0, "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" }
+      ],
+      "slots": [
+        { "id": "a7b5f6d3-4e2c-4a1f-b8c9-d7e3a5f9b6c8", "startTime": "2024-11-04T09:00:00Z", "endTime": "2024-11-04T10:00:00Z", "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" }
+      ]
+    },
+    {
+      "id": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4",
+      "name": "WellCare Diagnostics",
+      "location": "Los Angeles",
+      "email": "wellcarediag@example.com",
+      "tests": [
+        { "id": "c7e9a3d5-4b2f-4d6b-a8f9-c6b7f5d3a2e8", "name": "Blood Tests", "description": "Detects inflammation", "price": 85.0, "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "e9c5b8a6-f3d2-4a7f-b6c3-8f2a7d9b5c1e", "name": "Allergy Test", "description": "Tests for common allergens", "price": 95.0, "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "f1a7d9c6-3b5f-4e8a-b2c7-d9b4a6f5c3e8", "name": "Cholesterol Test", "description": "Full lipid profile", "price": 70.0, "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" }
+      ],
+      "slots": [
+        { "id": "a7b5f6d3-4e2c-4a1f-b8c9-d7e3a5f9b6c8", "startTime": "2024-11-05T09:00:00Z", "endTime": "2024-11-05T10:00:00Z", "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" }
+      ]
+    },
+    {
+      "id": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f",
+      "name": "MediCare Diagnostics",
+      "location": "Houston",
+      "email": "medicare@example.com",
+      "tests": [
+        { "id": "c7e9a3d5-4b2f-4d6b-a8f9-c6b7f5d3a2e8", "name": "Blood Test", "description": "Detects inflammation", "price": 85.0, "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" },
+        { "id": "e9c5b8a6-f3d2-4a7f-b6c3-8f2a7d9b5c1e", "name": "Allergy Test", "description": "Tests for common allergens", "price": 95.0, "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" }
+      ],
+      "slots": [
+        { "id": "a7b5f6d3-4e2c-4a1f-b8c9-d7e3a5f9b6c8", "startTime": "2024-11-06T09:00:00Z", "endTime": "2024-11-06T10:00:00Z", "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" }
+      ]
+    },
+    {
+      "id": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f",
+      "name": "Health Plus Diagnostics",
+      "location": "Chicago",
+      "email": "healthplus@example.com",
+      "tests": [
+        { "id": "a2f4c9d7-6e8a-4f5b-b1d7-c5a3d7e9b1f2", "name": "Iron Test", "description": "Measures blood iron levels", "price": 55.0, "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" },
+        { "id": "c7b5d9e4-f8b3-4a6f-a5b2-d1e7a3c9b6f2", "name": "Electrolyte Test", "description": "Measures electrolyte levels", "price": 65.0, "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" },
+        { "id": "b6d8e9c7-4a2f-4b3d-a1f5-d7b4c8a5e2f3", "name": "Liver Function Test", "description": "Assesses liver function", "price": 75.0, "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" },
+        { "id": "e7d3f9c2-b5a4-4c8a-b7f3-d9b5c7a6f3d8", "name": "Blood Panel", "description": "Complete thyroid assessment", "price": 60.0, "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" },
+        { "id": "9a2d4f6b-5c7e-4d8b-a9f3-8d6b5f3a7e2f", "name": "Urinalysis", "description": "Standard urine test", "price": 45.0, "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" }
+      ],
+      "slots": [
+        { "id": "6f8c7b9a-d3e2-4a6d-b5f9-a7d5f3c8e9b1", "startTime": "2024-11-04T09:00:00Z", "endTime": "2024-11-04T10:00:00Z", "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" },
+        { "id": "b7d9a3c4-f2e7-4b1d-a8f3-6c5b9d7e3f8a", "startTime": "2024-11-04T10:00:00Z", "endTime": "2024-11-04T11:00:00Z", "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" },
+        { "id": "c5f7b8d9-e3d6-4a9b-a5f2-d4c8b7f6e9a1", "startTime": "2024-11-04T11:00:00Z", "endTime": "2024-11-04T12:00:00Z", "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" },
+        { "id": "d2a9f5b7-e8d3-4c6a-b4f9-7d6b3a8f2e5c", "startTime": "2024-11-04T12:00:00Z", "endTime": "2024-11-04T13:00:00Z", "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" },
+        { "id": "a3d5c6f8-b7e4-4a9b-b6d2-f3c8a9f1e7d3", "startTime": "2024-11-04T13:00:00Z", "endTime": "2024-11-04T14:00:00Z", "labId": "5d8c7f4b-3e6b-49a7-a9b4-2b6d5f3a9e1f" }
+      ]
+    },
+    {
+      "id": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4",
+      "name": "WellCare Diagnostics",
+      "location": "Los Angeles",
+      "email": "wellcarediag@example.com",
+      "tests": [
+        { "id": "c7e9a3d5-4b2f-4d6b-a8f9-c6b7f5d3a2e8", "name": "Sugar Test", "description": "Detects inflammation", "price": 85.0, "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "e9c5b8a6-f3d2-4a7f-b6c3-8f2a7d9b5c1e", "name": "Allergy Test", "description": "Tests for common allergens", "price": 95.0, "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "f1a7d9c6-3b5f-4e8a-b2c7-d9b4a6f5c3e8", "name": "Cholesterol Test", "description": "Full lipid profile", "price": 70.0, "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "d8b3c7f9-e1a5-4a9f-b6d4-3f5a9c8e7b2d", "name": "Blood Test", "description": "Measures Vitamin B12", "price": 65.0, "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "e7c9f3b1-5a4d-4b6f-a7c8-d1b5a3e9f6c7", "name": "Prostate-Specific Antigen (PSA)", "description": "Screening for prostate cancer", "price": 105.0, "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" }
+      ],
+      "slots": [
+        { "id": "a7b5f6d3-4e2c-4a1f-b8c9-d7e3a5f9b6c8", "startTime": "2024-11-05T09:00:00Z", "endTime": "2024-11-05T10:00:00Z", "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "e3d9b4a6-f8b7-4a2c-b9d1-7c6a5f2e8b3a", "startTime": "2024-11-05T10:00:00Z", "endTime": "2024-11-05T11:00:00Z", "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "f9c5a7e3-b2d6-4d1f-a8c3-5b7d9a6f2e3c", "startTime": "2024-11-05T11:00:00Z", "endTime": "2024-11-05T12:00:00Z", "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "a8d3f5b7-6e2b-4c9a-b7f9-c5e3d1b8f7a4", "startTime": "2024-11-05T12:00:00Z", "endTime": "2024-11-05T13:00:00Z", "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" },
+        { "id": "c9b3d7a8-f5e2-4a6f-b4c8-5a1e7f9d3b6a", "startTime": "2024-11-05T13:00:00Z", "endTime": "2024-11-05T14:00:00Z", "labId": "9d4a7f6c-b8a3-4c8b-a9f5-e2b7c3d6a8f4" }
+      ]
+    },
+    {
+      "id": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f",
+      "name": "MediCare Diagnostics",
+      "location": "Houston",
+      "email": "medicare@example.com",
+      "tests": [
+        { "id": "f7c9a6e3-2d5b-4b8f-a1d3-6e9a3f5c8b4d", "name": "HbA1c", "description": "Average blood sugar test", "price": 65.0, "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" },
+        { "id": "c6e9a7f3-5d2a-4b1f-a9c8-3d4b8f2e5a7f", "name": "Insulin Test", "description": "Insulin level in blood", "price": 85.0, "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" },
+        { "id": "b3f7d5a2-6e8a-4f9b-a1c3-d9b4a7f6e5c2", "name": "ESR", "description": "Detects inflammation", "price": 55.0, "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" },
+        { "id": "d5e9c3a7-b4f8-4a1f-a7b9-f3c2d8a5b6f7", "name": "Lipid Panel", "description": "Cholesterol profile", "price": 75.0, "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" },
+        { "id": "a9c5f7d3-8b2e-4d6a-a4f1-c7d3f9e5a8b7", "name": "Uric Acid", "description": "Detects gout", "price": 60.0, "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" }
+      ],
+      "slots": [
+        { "id": "f8b7d2a9-6e3c-4c9a-b5f1-a7c5e3d8b4f9", "startTime": "2024-11-06T09:00:00Z", "endTime": "2024-11-06T10:00:00Z", "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" },
+        { "id": "c3a9f7d5-b8e4-4f1a-b7c2-5d3e9a6b7f8a", "startTime": "2024-11-06T10:00:00Z", "endTime": "2024-11-06T11:00:00Z", "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" },
+        { "id": "d9e7c3b5-f8a4-4a9f-b6c2-5b1a3d6f9e2c", "startTime": "2024-11-06T11:00:00Z", "endTime": "2024-11-06T12:00:00Z", "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" },
+        { "id": "a6b9f5d3-2e7a-4c8b-b5d9-f8c3e4a7b6f1", "startTime": "2024-11-06T12:00:00Z", "endTime": "2024-11-06T13:00:00Z", "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" },
+        { "id": "c7a9e3d8-f4b2-4a6f-b5d3-8b6a5e9c7f1a", "startTime": "2024-11-06T13:00:00Z", "endTime": "2024-11-06T14:00:00Z", "labId": "a8c7d5e3-f2b1-4b9a-a6e7-3b9f5d4c8a7f" }
+      ]
+    }
+  ]
+  ,
+    "doctors": [
+      {
+        "id": "928c54d4-fb96-4887-bb5e-498dc70b91ba",
+        "name": "Dr. Mark Wilson",
+        "specialty": "Cardiology",
+        "description": "Experienced cardiologist with 20 years of practice.",
+        "slots": [
+          {
+            "id": "3df0c2b9-cf49-4b8f-8a92-989f4c1f6517",
+            "startTime": "2024-11-01T09:00:00Z",
+            "endTime": "2024-11-01T10:00:00Z",
+            "doctorId": "928c54d4-fb96-4887-bb5e-498dc70b91ba"
+          },
+          {
+            "id": "89c9bc5e-b79f-4d7f-bd87-4f05836e97ea",
+            "startTime": "2024-11-01T10:00:00Z",
+            "endTime": "2024-11-01T11:00:00Z",
+            "doctorId": "928c54d4-fb96-4887-bb5e-498dc70b91ba"
+          }
+        ],
+        "consultations": []
+      },
+      {
+        "id": "1",
+        "name": "Dr. John Doe",
+        "specialization": "Cardiologist",
+        "location": "New York",
+        "slots": [
+          { "id": "1", "startTime": "2024-11-12T10:00:00", "endTime": "2024-11-12T10:30:00" },
+          { "id": "2", "startTime": "2024-11-12T11:00:00", "endTime": "2024-11-12T11:30:00" }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Dr. Jane Smith",
+        "specialization": "Dermatologist",
+        "location": "Los Angeles",
+        "slots": [
+          { "id": "3", "startTime": "2024-11-12T09:00:00", "endTime": "2024-11-12T09:30:00" },
+          { "id": "4", "startTime": "2024-11-12T14:00:00", "endTime": "2024-11-12T14:30:00" }
+        ]
+      },
+      {
+        "id": "d699d8db-16f4-418b-bcf3-4513b1712498",
+        "name": "Dr. Sarah Taylor",
+        "specialty": "Dermatology",
+        "description": "Specialist in skin diseases and treatments.",
+        "slots": [
+          {
+            "id": "f215b1a5-b2f2-42d9-b0b2-b8b77744a514",
+            "startTime": "2024-11-02T08:00:00Z",
+            "endTime": "2024-11-02T09:00:00Z",
+            "doctorId": "d699d8db-16f4-418b-bcf3-4513b1712498"
+          },
+          {
+            "id": "c74eac44-3e1a-4e1f-8207-3c1f24129947",
+            "startTime": "2024-11-02T09:00:00Z",
+            "endTime": "2024-11-02T10:00:00Z",
+            "doctorId": "d699d8db-16f4-418b-bcf3-4513b1712498"
+          }
+        ],
+        "consultations": []
+      }
+    ],
+    "appointments": [
+      {
+        "id": "56fe6a1b-21a9-41a7-b029-b3789053d982",
+        "date": "2024-11-01T09:00:00Z",
+        "slotId": "a3c9a3b4-b1e6-4872-b56d-b382383f9b63",
+        "userId": "a1fbb3b1-3b4f-4b92-a618-c1a0c0b2f1b0",
+        "report": null
+      }
+    ],
+    "consultations": [
+      {
+        "id": "e5174513-7a8b-4a84-a5f2-710017d700b9",
+        "date": "2024-11-01T09:00:00Z",
+        "slotId": "3df0c2b9-cf49-4b8f-8a92-989f4c1f6517",
+        "userId": "a1fbb3b1-3b4f-4b92-a618-c1a0c0b2f1b0",
+        "doctorId": "928c54d4-fb96-4887-bb5e-498dc70b91ba"
+      }
+    ]
+  }
+  

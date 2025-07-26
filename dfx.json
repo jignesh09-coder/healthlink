@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "healthlinkchain_backend": {
+      "candid": "src/healthlinkchain_backend/healthlinkchain_backend.did",
+      "package": "healthlinkchain_backend",
+      "type": "rust"
+    },
+    "healthlinkchain_frontend": {
+      "dependencies": [
+        "healthlinkchain_backend"
+      ],
+      "source": [
+        "src/healthlinkchain_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "healthlinkchain_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
